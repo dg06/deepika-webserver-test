@@ -23,7 +23,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: "poojadeepika"
-          password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+          password: "dckr_pat_RbgoPFHGQjpcLPRL51f0nFM4ySQ"
 
       - name: Build Docker image
         run: docker build -t poojadeepika/devops-webapp:latest naas-devops-webapp/
